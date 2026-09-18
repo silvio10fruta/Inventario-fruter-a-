@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#3D5A73">
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIkludmVudGFyaW8gbWVuc3VhbCIsICJzaG9ydF9uYW1lIjogIkludmVudGFyaW8iLCAic3RhcnRfdXJsIjogIi4vIiwgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNGQUY3RjEiLCAidGhlbWVfY29sb3IiOiAiIzNENUE3MyIsICJpY29ucyI6IFt7InNyYyI6ICJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQU1BQUFBREFDQVlBQUFCUzNHd0hBQUFGK2tsRVFWUjRuTzNjelhGVVJ4aUY0WmFLQkl3RElBNnZJQU9JZ2cyRUl6YU9RbVFnVm82REFHeUhnQmRteEVpYXVmZjJmMy9udk0rS0txcEdyZTV6dXZ2T1RPa21MZWJ0cC9jL1pvOEIvWHo3OHZWbTloak9UUjBNWVVkS2Mwc3gvQWNUZW13WlhZWmhQNHpnSThlb0luVC9JUVFmTlhvWG9kdUxFM3kwMUtzSXpWK1U0S09uMWtXNGJmbGloQis5dGM1WWt6WVJmTXpRNGpTb1BnRUlQMlpwa2IycUFoQit6RmFid2VJQ0VINnNvaWFMUlFVZy9GaE5hU2F6QzBENHNhcVNiR1lWZ1BCamRia1pQVndBd284b2NySjZxQUNFSDlFY3pleHVBUWcvb2pxUzNhWmZoUUNpMlN3QXV6K2kyOHZ3MVFJUWZxall5akpYSUZpN1dBQjJmNmk1bG1sT0FGaDdVUUIyZjZpNmxHMU9BRmg3VWdCMmY2aDdubkZPQUZoN0xBQzdQMXljWjUwVEFOWW9BS3pkcHNUMUIzNU9tZWNFZ0RVS0FHc1VBTllvQUt6ZDhBQU1aNXdBc0VZQlRQMzU1cC9aUTFqQ3E5a0R3RmluNEgvOC9ucnlTTlpBQVV5YzcvaUUveGNLSU83NVZZZndQMFVCQnZ2ajM3ODMvLyt2MzM2di9oblg3dmVFL3lVS0lHVHJ3WmJ3WDBZQkJCRDhjaFFnc0wyM01nbi9QZ29RMEpIMzhBbi9NUlFna0tNZlhoSCs0eWpBNG5JL3NTWDhlU2pBb2txK3FrRDQ4MUdBeFpSK1I0ZndsK0hMY0FJSWZ6a0tFQnpocjBNQkFpUDg5U2hBVUlTL0RRb1FFT0Z2aHdJc1ppdmNINysvSnZ5TlVZQWdDSDRmZkE3UTJNUGQvZU8vMzMzKzBPUTFDWDgvRktDQjg5QzNkaTM4RDNmM3pRcm1qQUlVNmhuNms3MmR2OGRwNDRZQ1pCZ1IrcFBjYXc5bEtFTUJEaGdaL0pUcTcveW44VktFZmJ3THRLTW0vTDJLYy9SMVJ4YzNJazZBSzFUQ3cybXdqVCtPKzB5UDRKK0hyL2JQb3RTT2p5STh4Ulhvek93cnk0alhVVG5aV3FFQVAvVU9SdTNydHh3ZkpmakYvZ28wSXd3NTE1RGU0M08vRWxrWFlQWk91Qlcra1dOekxvRnRBV2FIZnpXdUpiQjhCaUQ4TDduT2lWMEJYQmY2Q01lNXNTcUE0d0xuY3Bzam13SzRMV3dOcDdteUtJRFRncmJpTW1jV0JRQ3VrUytBeTA3V2c4UGNTUmZBWVFGN1U1OUQyUUtvTDl4SXluTXBXd0RnQ01rQ0tPOVlzNmpPcVdRQmdLUGtDcUM2VTYxQWNXN2xDZ0Rra0NxQTRnNjFHclU1bGlvQWtFdW1BR283MDhxVTVscW1BRUFKaVFJbzdVaFJxTXk1UkFHQVVoUUExc0lYUU9Vb2praGg3c01YQUtoQkFXQXRkQUVVanVEb29xOUI2QUlBdFNnQXJGRUFXS01Bc0JhMkFORWZ2cFJFWG91d0JRQmFvQUN3UmdGZ2pRTEFHZ1dBTlFvQWF4UUExaWdBckZFQVdLTUFzRVlCWUkwQ3dCb0ZnRFVLQUd0aEMvRHU4NGZaUThCUGtkY2liQUdBRmlnQXJGRUFXS01Bc0JhNkFKRWZ2bFJFWDRQUUJRQnFVUUJZQzErQTZFZHdaQXB6SDc0QVFBMEtBR3NTQlZBNGlxTlJtWE9KQWdDbFpBcWdzaU5Gb0RUWE1nVUFTa2dWUUdsbldwWGFIRXNWQU1nbFZ3QzFIV29saW5NclZ3QWdoMlFCRkhlcTJWVG5WTElBd0ZHeUJWRGRzV1pRbmt2WkFxU2t2WENqcU0raGRBRlMwbC9Bbmh6bVRyNEF3QmFMQWpqc1pLMjV6SmxGQVZMeVdkQVduT2JLcGdBcGVTMXNLYmM1c2lwQVNuNExuTU54YnV3S2tKTG5RdTl4blJQTEFxVGt1K0NYT00rRmJRRlM4bDc0RS9jNXVIbjc2ZjJQMllOWXdjUGQvZXdoRE9VZS9CUHJFK0NjVXlDY2Z0YzlGT0NNUXpBY2ZzY2NYSUd1VUxzU0VmekxLTUNPNkVVZytOdTRBdTJJSEtESVl4K0ZFeUJEbE5PQTRCOUhBUXF0VmdaQ1g0WUNORENyRElTKzNrMUtLVkdDZG5xWGdkQzM4KzNMMTV0WHN3ZWg1bEpBUzB0QjJQdWpBQU1RNUhYeE5paXNVUUJZdTAzcC80ZUIyUU1CUmpwbG5oTUExaWdBckQwV2dHc1FYSnhublJNQTFwNFVnRk1BNnA1bm5CTUExbDRVZ0ZNQXFpNWxteE1BMWk0V2dGTUFhcTVsbWhNQTFxNFdnRk1BS3JheXZIa0NVQUpFdDVkaHJrQ3d0bHNBVGdGRWRTUzdoMDRBU29Cb2ptYjI4QldJRWlDS25LeG1QUU5RQXF3dU42UFpEOEdVQUtzcXlXYlJ1MENVQUtzcHpXVHgyNkNVQUt1b3lXTFY1d0NVQUxQVlpyRDZnekJLZ0ZsYVpLOXBlUGtib3hpaDVhYmI5S3NRbkFib3JYWEd1Z1dXMHdBdDlkcGN1Ky9ZRkFFMWV0OHFobDFaS0FKeWpMcE9ENyt6VXdSc0dmMGNPZldobFRJZ3BibHZuaXozcmcybDBMYmFPNFgvQVdjbTZ0Nk1uWk1nQUFBQUFFbEZUa1N1UW1DQyIsICJzaXplcyI6ICIxOTJ4MTkyIiwgInR5cGUiOiAiaW1hZ2UvcG5nIn0sIHsic3JjIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBZ0FBQUFJQUNBWUFBQUQwZU5UNkFBQVNHRWxFUVZSNG5PM2R3YlVqUnhrRjRCb2ZFZ0FDY0J5c1RBWW1DalltSEx4eEZEZ0R2Q0lPQXNDRVlCWmpHYjAzZWxLM1ZOMzFWOTN2VzNFNFBrWXFkZFc5L1hmUDhLbFIwamZmZmZ2TDZNOEEwTU5QMy8vNGFmUm40RXQrbEVFRVBNQm5Dc0lZRnYwRXdoNWdINlhnZUJiNEFBSWZvQytGb0Q4TDJvSEFCemlYUXZBNkMvZ2tvUTlRZ3pMd0hJdTJnOUFIcUUwWjJNNUNQU0QwQWVha0ROeG5jVDRnK0FIV29BamNabEd1Q0gyQXRTa0QvMmNobXVBSFNLTUloQmNBd1ErUUxia0lSSDV4d1EvQXRjUWlFUFdGQlQ4QTl5UVZnWWd2S3ZnQjJDT2hDSHcxK2dNY1RmZ0RzRmRDZGl6YmNCSitQQUNPdCtvMFlMa3ZKZmdCT01KcVJXQ3BSd0RDSDRDanJKWXhTN1NaMVg0VUFHcGJZUm93L1FSQStBTnd0aFd5WitvQ3NNSVBBTUNjWnMrZ0tVY1lzeTg2QUd1WjhaSEFkQk1BNFE5QU5UTm0wMVFGWU1ZRkJpRERiQmsxeGNoaXRrVUZJTnNNandUS1R3Q0VQd0N6bVNHN1NoZUFHUllRQUc2cG5tRmxDMEQxaFFPQVJ5cG5XY2tDVUhuQkFHQ1BxcGxXcmdCVVhTZ0FlRmJGYkN0VkFDb3VFQUQwVUMzanloU0FhZ3NEQUwxVnlyb1NCYURTZ2dEQWthcGszdkFDVUdVaEFPQXNGYkp2YUFHb3NBQUFNTUxvREJ4V0FFWi9jUUFZYldRV0Rpa0F3aDhBUGh1VmlhY1hBT0VQQUcrTnlNWlRDNER3QjREYnpzN0kwd3FBOEFlQSs4N015bE1LZ1BBSGdHM095c3poZnc4QUFIQyt3d3VBdTM4QTJPZU03RHkwQUFoL0FIak8wUmw2V0FFUS9nRHdtaU96MURzQUFCRG9rQUxnN2g4QStqZ3FVN3NYQU9FUEFIMGRrYTFkQzREd0I0Qmo5TTVZN3dBQVFLQnVCY0RkUHdBY3EyZldkaWtBd2g4QXp0RXJjejBDQUlCQUx4Y0FkLzhBY0s0ZTJXc0NBQUNCWGlvQTd2NEJZSXhYTS9qcEFpRDhBV0NzVjdMWUl3QUFDUFJVQVhEM0R3QTFQSnZKSmdBQUVHaDNBWEQzRHdDMVBKUE5KZ0FBRUdoWEFYRDNEd0ExN2Mxb0V3QUFDTFM1QUxqN0I0RGE5bVMxQ1FBQUJOcFVBTno5QThBY3RtYTJDUUFBQkZJQUFDRFF3d0pnL0E4QWM5bVMzU1lBQUJEb2JnRnc5dzhBYzNxVTRTWUFBQkJJQVFDQVFCOFdBT04vQUpqYnZTdzNBUUNBUUFvQUFBUzZXUUNNL3dGZ0RSOWx1Z2tBQUFSU0FBQWcwQmNGd1BnZkFOWnlLOXROQUFBZ2tBSUFBSUVVQUFBSTlLWUFlUDRQQUd0Nm4vRW1BQUFRU0FFQWdFQUtBQUFFK3EwQWVQNFBBR3U3em5vVEFBQUlwQUFBUUNBRkFBQUNLUUFBRU9pcjFyd0FDQUFwTHBsdkFnQUFnUlFBQUFpa0FBQkFJQVVBQUFJcEFBQVFTQUVBZ0VBS0FBQUUrdVR2QUFCNDNnOWYvOXorK3U4L2pQNFlzTnZ2Um44QWdCbjk4UFhQcmJVbS9KbVdBZ0N3d3lYNFd4UCt6RTBCQU5qZ092aGJFLzdNVHdFQStNRDcwTDhRL3F4QUFRQjQ1NlBnYjAzNHN3NEZBT0JYOTRLL05lSFBXaFFBSUo3Z0o1RUNBTVI2RlB5dENYL1dwUUFBY2JZRWYydkNuN1VwQUVDRXJhRi9JZnhablFJQUxHMXY4TGNtL01tZ0FNQ2kvdlRmLzNUNTkvenI5My9zOHU4NTJ6UEIzNXJ3SjRjQ0FDemwyZUJ2VGZpVFJRRUFsdkJLOExjbS9NbWpBQUJUZXpYNFd4UCtaRklBZ0NuMUNQN1doRCs1RkFCZ0dyMUMvMEw0azB3QkFNcnJIZnl0Q1g5UUFJQ3lCRDhjUndFQXlqa2krRnNUL25CTkFRREtPQ3I0V3hQKzhKNENBQXgzWlBDM0p2emhGZ1VBR09ibzRHOU4rTU5IRkFEZ1ZHZUUvb1h3aDQ4cEFNQXB6Z3orMW9RL1BLSUFBSWM2Ty9oYkUvNndoUUlBSEdKRThMY20vR0VyQlFEb2FsVHd0eWI4WVE4RkFPaGlaUEMzSnZ4aEx3VUFlTnJvMEw4US9yQ2ZBZ0RzSnZoaGZnb0FzRm1WNEc5TitNT3JGQURnb1VyQjM1cndoeDYrR3YwQkFQWVEvdENIQWdCTVEvaERQd29BOEZDRjRLM3dHV0FsQ2dCUW52Q0gvaFFBb0RUaEQ4ZFFBSUN5aEQ4Y1J3RUFTaEwrY0N3RkFDaEgrTVB4RkFCZ2s3TkNXZmpET2Z4TmdFQUpnaC9PWlFJQURDZjg0WHdLQURDVThJY3hGQUJnR09FUDR5Z0F3R1k5QTF2NHcxZ0tBSEE2NFEvaktRREFxWVEvMUtBQUFLY1IvbENIQWdDY1F2aERMUW9BY0RqaEQvWDRtd0Nob0gvKy9SOWYvSGQvL3R0ZlR2OGN0L3oxMzM5b1Azejk4NjUvSHFoSEFZQUNiZ1grdFNyaHY1ZndoN29VQUJqZ1VlRFBUdkJEZlFvQW5HRDF3TC8yU3ZoZjFtbldpUWZNUkFHQWd5U0Yva1d2Ty8vcnRWTUc0QmdLQUhTVUdQb1hSNDM5bFFFNGhnSUFMMG9NL2ZkL0V1Q3NaLzdLQVBTakFNQVRFa1AvSTZOZStGTUc0RFVLQU93ZytOK3E4cmEvbHdkaFB3VUFOaEQ4WDZvUy90Y1VBZGp1MHpmZmZmdkw2QThCRlZVTC9iMmg5cWYvL3FmTC8rNi9mdi9ITHYrZVI0NWFiMlVBYmpNQmdIZXFCVCt2TVJXQTJ4UUErSlhnWDVzaUFHOTVCRUM4bVlKL1Qzak45QWhneEcrZ0NKRE8veDB3MFdZS2YvcnkyNVBPSXdBaU9meHB6V01Cc25rRVFKUVZnbjlyV00zeUNLRFNiNklJa0VRQklFS2xrT2xoUzFETlVBQ3EvaTZLQUFtOEE4RHlxb1lNZGJsbVNHQUN3TEpXUDhRZjNhVldud0RNOHZ1WUJyQXFFd0NXTkV1NHZHTG03empUWjUvcHM4SWVKZ0FzSmZHdy91Z090ZW9FWU9iZnlEU0FsWmdBc0l5WmcrVVZNMzN2bVQ3ckxiTi9mcmhtQXNEMEhNcWZ2Yjg3clRZQldPMTNNZzFnZGdvQVUxc3RWRjVWTlpSVy9aMnFyamRzNFJFQTAxbzFWRjVSY1UwcWZxWmVWdjV1ck04RWdPazRkTGNaZlhlYTlqdU5YbS9ZeXdTQXFhU0Z5aXRHcmxYaTc1VDRuWm1iQ1FEVGNNQys1dWc3VkwvUFp5WUJ6RUlCWUFyQ3BaL2VBZVczK1pJU3dBd1VBTW9UTU1mYUcxWitqMjJVQUtwVEFDaEwwTEFDUllDcXZBUklTY0tmVmJpV3FVb0JvQndISnF0eFRWT1JBa0FwRGtwVzVkcW1HZ1dBTWh5UXJNNDFUaVVLQUNVNEdFbmhXcWNLQllEaEhJaWtjYzFUZ1FMQVVBNUNVcm4yR1UwQllCZ0hJT25zQVVaU0FCakN3UWVmMlF1TW9nQndPZ2NldkdWUE1JSUN3S2tjZEhDYnZjSFpGQUJPNDRDRCsrd1J6cVFBQUVBZ0JZQlR1TE9CYmV3VnpxSUFjRGdIR3V4anozQUdCWUJET2NqZ09mWU9SMU1BT0l3RERGNWpEM0VrQllCRE9MaWdEM3VKb3lnQUFCQklBYUE3ZHl6UWx6M0ZFUlFBdW5KUXdUSHNMWHBUQU9qR0FRWEhzc2ZvU1FFQWdFQUtBRjI0TTRGejJHdjBvZ0R3TWdjU25NdWVvd2NGQUFBQ0tRQzh4SjBJakdIdjhTb0ZnS2M1Z0dBc2U1QlhLQUFBRUVnQjRDbnVQS0FHZTVGbktRRHM1c0NCV3V4Sm5xRUFBRUFnQllCZDNHbEFUZlltZXlrQUFCQklBV0F6ZHhoUW16M0tIZ29BbXpoWVlBNzJLbHNwQUFBUVNBSGdJWGNVTUJkN2xpMFVBQUFJcEFCd2x6c0ptSk85eXlNS0FBQUVVZ0Q0a0RzSW1Kczl6RDBLQUFBRVVnQzR5WjBEck1GZTVpTUtBQUFFVWdENGdqc0dXSXM5elMwS0FBQUVVZ0FBSUpBQ3dCdEdoYkFtZTV2M0ZBQUFDS1FBOEJ0M0NMQTJlNXhyQ2dBQUJGSUFBQ0NRQWtCcnpXZ1FVdGpyWENnQUFCQklBUUNBUUFvQVJvSVF4cDZuTlFVQUFDSXBBQUFRU0FFSVp4UUltZXg5RkFBQUNLUUFBRUFnQlNDWUVTQmtjd1prVXdBQUlKQUNBQUNCRklCUVJuOUFhODZDWkFvQUFBUlNBQUFna0FJQUFJRVVnRUNlK1FIWG5BbVpGQUFBQ0tRQUFFQWdCUUFBQWlrQUFCQklBUWpqWlIvZ0ZtZERIZ1VBQUFJcEFBQVFTQUVBZ0VBS0FBQUVVZ0FBSUpBQ0VNUmJ2c0E5em9nc0NnQUFCRklBQUNDUUFnQUFnUlFBQUFpa0FBQkFJQVVBQUFJcEFBQVFTQUVJNGMvM0FsczRLM0lvQUFBUVNBRUFnRUFLQUFBRVVnQUFJSkFDQUFDQkZBQUFDS1FBQUVBZ0JRQUFBaWtBQUJCSUFRQ0FRQW9BQUFSU0FBQWdrQUlBQUlFVUFBQUlwQUFBUUNBRkFBQUNLUUFBRUVnQkFJQkFDZ0FBQkZJQUFDQ1FBZ0FBZ1JRQUFBaWtBSVQ0ODkvK012b2pBQk53VnVSUUFBQWdrQUlBQUlFVUFBQUlwQUFBUUNBRkFBQUNLUUFBRUVnQkFJQkFDa0FRZjc0WHVNY1prVVVCQUlCQUNnQUFCRklBQUNDUUFnQUFnUlFBQUFpa0FJVHhsaTl3aTdNaGp3SUFBSUVVQUFBSXBBQUFRQ0FGQUFBQ0tRQ0J2T3dEWEhNbVpGSUFBQ0NRQWdBQWdSUUFBQWlrQUlUeXpBOW96Vm1RVEFFQWdFQUtBQUFFVWdDQ0dmMUJObWRBTmdVQUFBSXBBQUFRU0FFSVp3UUltZXg5RkFBQUNLUUFBRUFnQlFDalFBaGp6OU9hQWdBQWtSUUFBQWlrQU5CYU14S0VGUFk2RndvQUFBUlNBQUFna0FMQWI0d0dZVzMyT05jVUFBQUlwQUR3aGpzRVdKTzl6WHNLQUFBRVVnQUFJSkFDd0JlTUNtRXQ5alMzS0FBQUVFZ0I0Q1ozRExBR2U1bVBLQUFBRUVnQjRFUHVIR0J1OWpEM0tBQUFFRWdCNEM1M0VEQW5lNWRIRkFBQUNLUUE4SkE3Q1ppTFBjc1dDZ0FBQkZJQTJNUWRCY3pCWG1VckJZRE5IQ3hRbXozS0hnb0FBQVJTQU5qRkhRYlVaRyt5bHdJQUFJRVVBSFp6cHdHMTJKTThRd0hnS1E0Y3FNRmU1RmtLQUFBRVVnQjRtanNQR01zZTVCVUtBQzl4QU1FWTloNnZVZ0FBSUpBQ3dNdmNpY0M1N0RsNlVBRG93b0VFNTdEWDZFVUJBSUJBQ2dEZHVET0JZOWxqOUtRQTBKVURDbzVoYjlHYkFrQjNEaXJveTU3aUNBb0FBQVJTQURpRU94Ym93MTdpS0FvQWgzRnd3V3ZzSVk2a0FIQW9CeGc4eDk3aGFBb0FoM09Rd1Q3MkRHZFFBRGlGQXcyMnNWYzRpd0lBQUlFVUFFN2p6Z2J1czBjNGt3TEFxUnh3Y0p1OXdka1VBRTdub0lPMzdBbEdVQUFZd29FSG45a0xqS0lBTUl5RGozVDJBQ01wQUF6bEFDU1ZhNS9SRkFDR2N4Q1N4alZQQlFvQUpUZ1FTZUZhcHdvRmdESWNqS3pPTlU0bENnQ2xPQ0JabFd1YmFoUUF5bkZRc2hyWE5CVXBBSlRrd0dRVnJtV3ErdlROZDkvK012cER3RDMvL1BzL1JuOEUyRTN3VTUwSkFPVTVTSm1OYTVZWktBQk13WUhLTEZ5cnpFSUJZQm9PVnFwempUSVRCWUNwT0dDcHlyWEpiTHdFeUxTOEhFZ0ZncDlabVFBd0xRY3ZvN2tHbVprQ3dOUWN3SXppMm1OMkhnR3dESThFT0lQZ1p4VW1BQ3pEd2N6UlhHT3N4QVNBSlprRzBKUGdaMFVtQUN6SmdVMHZyaVZXWlFMQThrd0RlSWJnWjNVbUFDelBRYzVlcmhrU21BQVF4VFNBZXdRL1NSUUFJaWtDWEJQOEpGSUFpS1lJWkJQOEpQTU9BTkVFUUM2L1BlbE1BT0JYcGdFWkJEOThwZ0RBTzRyQW1nUS92S1VBd0FjVWdUVUlmcmhOQVlBTmxJRzVDSDE0VEFHQUhSU0IyZ1EvYlBlcHRkYVVBTmhIRWFoRjhNTStQMzMvNDZmZmpmNFFNS1Byd0ZFR3hoRDY4Qm9GQUY2a0RKeEg2RU0vQ2dCMHBBejBKL1RoR0FvQUhFUVplSjdRaCtNcEFIQ0M5NEdtRUx3bDhPRjhDZ0FNa0Y0SUJENk1wd0JBQWFzWEFvRVA5WHk2L0FkL0Z3RFVWNzBZQ0hxbzc2ZnZmL3pVbWdrQVRPVlJ3QjVkRUFROHJFTUJnSVVJYUdDcnIwWi9BQURnZkFvQUFBVDZyUUJjWGdvQUFOWjBuZlVtQUFBUVNBRUFnRUFLQUFBRWVsTUF2QWNBQUd0Nm4vRW1BQUFRU0FFQWdFQUtBQUFFK3FJQWVBOEFBTlp5Szl0TkFBQWdrQUlBQUlGdUZnQ1BBUUJnRFI5bHVna0FBQVJTQUFBZzBJY0Z3R01BQUpqYnZTdzNBUUNBUUFvQUFBUzZXd0E4QmdDQU9UM0tjQk1BQUFqMHNBQ1lBZ0RBWExaa3R3a0FBQVJTQUFBZzBLWUM0REVBQU14aGEyYWJBQUJBb00wRndCUUFBR3JiazlVbUFBQVFhRmNCTUFVQWdKcjJaclFKQUFBRTJsMEFUQUVBb0pabnN0a0VBQUFDUFZVQVRBRUFvSVpuTTlrRUFBQUNQVjBBVEFFQVlLeFhzdmlsQ1lBU0FBQmp2SnJCSGdFQVFLQ1hDNEFwQUFDY3EwZjJtZ0FBUUtBdUJjQVVBQURPMFN0enUwMEFsQUFBT0ZiUHJQVUlBQUFDZFMwQXBnQUFjSXplR2R0OUFxQUVBRUJmUjJUcklZOEFsQUFBNk9Pb1RQVU9BQUFFT3F3QW1BSUF3R3VPek5KREp3QktBQUE4NStnTVBmd1JnQklBQVB1Y2taM2VBUUNBUUtjVUFGTUFBTmptck13OGJRS2dCQURBZldkbTVhbVBBSlFBQUxqdDdJdzgvUjBBSlFBQTNocVJqVU5lQWxRQ0FPQ3pVWms0N0U4QktBRUFwQnVaaFVQL0dLQVNBRUNxMFJrNC9POEJHTDBBQUhDMkN0azN2QUMwVm1NaEFPQU1WVEt2UkFGb3JjNkNBTUJSS21WZG1RTFFXcTJGQVlDZXFtVmNxUUxRV3IwRkFvQlhWY3kyY2dXZ3Rab0xCUURQcUpwcEpRdEFhM1VYREFDMnFweGxaUXRBYTdVWERnRHVxWjVocFF0QWEvVVhFQURlbXlHN3luL0FhOTk4OSswdm96OERBSHhraHVDL0tEOEJ1RGJUd2dLUVpiYU1tcW9BdERiZkFnT3d2aG16YWJvUGZNMGpBUUJHbWpINEw2YWJBRnliZWVFQm1OdnNHVFIxQVdodC9oOEFnUG1za0QzVGY0RnJIZ2tBY0tRVmd2OWkrZ25BdFpWK0dBQnFXUzFqbHZveTEwd0RBT2hodGVDL1dQSkxYVk1FQUhqR3FzRi9zZFFqZ0Z0Vy93RUI2QzhoTzViL2d0ZE1Bd0M0SnlINEwySys2RFZGQUlCclNjRi9FZmVGcnlrQ0FOa1NnLzhpOW90ZlV3UUFzaVFILzBYOEFseFRCQURXSnZqL3owSjhRQmtBV0lQUXY4MmlQS0FJQU14SjhOOW5jWFpRQmdCcUUvcmJXYWduS1FNQU5Rajk1MWkwRHBRQmdITUovZGRad0FNb0JBQjlDZnorTE9nSkZBS0FmUVQrOFN6d0lFb0J3R2ZDZmd5TFhwU0NBS3hDd05mMFA2K2tGYmdFdW5MQkFBQUFBRWxGVGtTdVFtQ0MiLCAic2l6ZXMiOiAiNTEyeDUxMiIsICJ0eXBlIjogImltYWdlL3BuZyJ9XX0=">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA/0lEQVR4nO1XuxHCMAx99rEAMAAr0FLBBrBCGhoYBxoaVoANoKJlBQaAjBAKzneO4ySyjD9FXhdZ1nt+PusiAQuWu3Vli/vifrwKM1YLhCLuEiJjk5tcMja5KUL2JYaGSHF6HUEcOM0+5NyRD9GifAMAHuNpjXj7msQRAADFXKCAO7EC6wpuh0sjxiEHHB2wEevkan2135Brkh0wydX3+Vk11tuE2kB6hi4FdVCc6HWAS07dm7wTdgrwOT21Rt4ODAIGAS4tlVsjbwcAPxf+0oq5Iqh7yFfgIsIll/VT2tZeOU4JIM1cAPwmpDxegW1oDA3FKc1ATHLAmI4VYo7nX0N1WzF8eKcEAAAAAElFTkSuQmCC">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAFiElEQVR4nO3dzZUTORSG4es+JDBMAKTAdlaQAaTAhg0dDmzYTApDBrBiOykQwAwhwAKqj11dP5JKKul+9312HA7usvT6Wrbp7osN4MW7Vz96XwOO+/Lh06X3NXS5AAKOoUfgp31BIo7trLibfhEixpKWcTe5YUJGihZh39W+QWJGqhatVHuEEDKOqDWtq0xoYsZRtRo69KggZLRwZFoXT2hiRitH2ioKmpjRWmlj2UETM85S0lpW0MSMs+U2lxw0MaOXnPaSgiZm9Jba4G7QxIxRpLRY/aNvoKfNoJnOGM1ek6tBEzNGtdUmRw5IWQya6YzRrTX6KGhihhdLrXLkgJSboJnO8GbeLBMaUggaUh6C5rgBr67bZUJDCkFDyp0Zxw34NzXMhIYUgoYUgoaUC+dnKGFCQwpBQwpBi/r47P/el9DFk94XgLqmkN9+e9r5SvogaAHzaRw1ZjOCdm3pWBE5ZjOCbuav7/9t/v3XP/4svu2183H0mM0I2pWtF3rE/AtBD27v3QpCvkXQg0p5242YHyPowaS+f0zMywh6EDkfhBDzOoLuqOTTPGLeRtAdvHl+sTdGzC3wfzmcIOY0BO0AMacj6A7+/jf9eyqIOQ9BD4yY8/GicECEXI4JPRhiPoagB0LMx3HkKPT5/T83f355/zrr37/99vTmgxViroOgM8wjrmUt5unr5T5YIiPoHa0inqRM5utrIO5tBL2idchmZccMpvY2fnLSzJGQryM7+i1YqddB2LeY0L+dMZFbYGLf4m07qxdzz9vx+oCsLfSRo1UEL+9fFx85alxT5GkdNujWE60kqprXFDXqkEeOM56ec79G7WuKegQJNaF7bfLWtDzjmiJN6zBBR51YkyhRhzhyRI/ZLM4ayAcdZSNTRFgL6aAjbGAu9TWRDVp9445QXhvZoBGTZNDKE6gW1TWSC1p1o1pQXCupoBU3qDW1NZMKGpAJWm3SnElp7SSCVtqQXlTWUCJoYOI+aJXJMgKFtXQfNHDNddAKE2U03tfUddDAnNugvU+SkXleW7dBA0sIGlJcBu35KdELr2vsMmhgDUFDirugvT4VeuRxrd0FDWwhaEghaEghaEhxFbTHFyneeVtzV0EDewgaUggaUggaUggaUggaUggaUggaUggaUggaUggaUggaUggaUlwFHeW3oY7E25q7ChrYQ9CQQtCQQtCQ4i5oby9SPPO41u6CBrYQNKS4DNrjU6E3XtfYZdDAGoKGFLdBe31K9MDz2roNGljiOmjPk2RU3tfUddDAnPugvU+UkSispfuggWsSQStMlt5U1lAiaDOdDelBae1kggbMxIJWmjRnUVszqaDN9DaoJcW1kgvaTHOjalNdI8mgEZds0KoTqAbltZEN2kx740qpr4l00Gb6G5gjwlrIB20WYyP3RFmDEEGbxdnQJZHu++XFu1c/el/E2bz9ut9SkUKehJnQ1yJsdIT7uCRk0GbaG6583/aEPHLMqRxBIoc8CTuhrymEoHAfamBCz3ib1oR8i6BXjB42IS8j6B2jhU3I2wg6Q6+4iTgdQRdqHTcRl7mYmRF1HaWRE28dXz58ujzpfRFKCLM/3oeGFIKGlDuzX2eP3hcCHDE1zISGFIKGlIegOXbAq+t2mdCQQtCQchM0xw54M2+WCQ0pj4JmSsOLpVYXJzRRY3RrjXLkgJTVoJnSGNVWm5sTmqgxmr0mOXJAym7QTGmMIqXFpAlN1OgttcHkIwdRo5ec9rLO0ESNs+U2l/2ikKhxlpLWit7lIGq0VtpY8dt2RI1WjrRVJUp+UA1qqDEkq3ywwrTGUbUaqh4i0xo5ag/D6h99M62RqkUrTeNjWmNJy6F32jQl7tjOeubucjwg7hh6HD+HOO8SuIYRXj/9BHeS0EeZVsvEAAAAAElFTkSuQmCC">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Inventario">
+<title>Inventario mensual</title>
+<style>
+  :root{
+    --bg:#FAF7F1;
+    --paper:#FFFFFF;
+    --ink:#2B2620;
+    --ink-soft:#75695A;
+    --line:#E7DECC;
+    --sala:#3F6B4F;
+    --sala-dark:#2E5039;
+    --sala-soft:#E7F0E9;
+    --camara:#3D5A73;
+    --camara-dark:#2C4457;
+    --camara-soft:#E6EDF2;
+    --total:#8A5420;
+    --total-dark:#6E4319;
+    --total-soft:#FBEAD3;
+    --citrus:#D98A3D;
+    --citrus-soft:#FBEAD3;
+    --danger:#B4553E;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:96px;
+  }
+  header{
+    position:sticky;
+    top:0;
+    z-index:10;
+    background:var(--sala);
+    color:#fff;
+    padding:14px 16px 0;
+    transition:background .2s ease;
+  }
+  header.tab-camara{background:var(--camara);}
+  header.tab-total{background:var(--total);}
+  header h1{
+    margin:0 0 2px;
+    font-size:19px;
+    font-weight:700;
+    letter-spacing:-0.01em;
+  }
+  header .sub{
+    font-size:12.5px;
+    color:#DCEADF;
+    text-transform:capitalize;
+  }
+  header.tab-camara .sub{color:#DCE6EE;}
+  header.tab-total .sub{color:#F5E3C8;}
+
+  .date-nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+  }
+  .date-nav-label{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+  }
+  .nav-arrow{
+    width:28px;
+    height:28px;
+    flex-shrink:0;
+    border:1px solid rgba(255,255,255,.3);
+    background:rgba(255,255,255,.14);
+    color:#fff;
+    border-radius:8px;
+    font-size:16px;
+    line-height:1;
+    cursor:pointer;
+  }
+  .today-pill{
+    border:none;
+    background:rgba(255,255,255,.28);
+    color:#fff;
+    font-size:11px;
+    font-weight:600;
+    padding:3px 9px;
+    border-radius:20px;
+    cursor:pointer;
+  }
+
+  .tabs{
+    display:flex;
+    gap:4px;
+    margin-top:12px;
+    background:rgba(255,255,255,.15);
+    border-radius:10px;
+    padding:3px;
+  }
+  .tabs button{
+    flex:1;
+    border:none;
+    background:transparent;
+    color:#fff;
+    opacity:.75;
+    font-size:13.5px;
+    font-weight:600;
+    padding:9px 0;
+    border-radius:8px;
+    cursor:pointer;
+  }
+  .tabs button.active{
+    background:#fff;
+    opacity:1;
+  }
+  .tabs button.active.tab-sala-btn{color:var(--sala-dark);}
+  .tabs button.active.tab-camara-btn{color:var(--camara-dark);}
+  .tabs button.active.tab-total-btn{color:var(--total-dark);}
+
+  .searchwrap{
+    margin-top:12px;
+    padding-bottom:14px;
+    position:relative;
+  }
+  .searchwrap input{
+    width:100%;
+    padding:10px 14px;
+    border-radius:10px;
+    border:none;
+    font-size:15px;
+    background:#fff;
+    color:var(--ink);
+  }
+  .searchwrap input::placeholder{color:#A79C8C;}
+
+  .import-row{
+    padding-bottom:14px;
+  }
+  .import-btn{
+    width:100%;
+    background:rgba(255,255,255,.16);
+    color:#fff;
+    border:1px solid rgba(255,255,255,.35);
+    border-radius:9px;
+    padding:9px 10px;
+    font-size:12.5px;
+    font-weight:600;
+    cursor:pointer;
+  }
+
+  main{padding:14px 12px 0;}
+
+  .cat{
+    margin-bottom:14px;
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:12px;
+    overflow:hidden;
+  }
+  .cat-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 14px;
+    cursor:pointer;
+    user-select:none;
+  }
+  .cat-head h2{
+    margin:0;
+    font-size:14.5px;
+    font-weight:700;
+    color:var(--sala-dark);
+  }
+  body[data-tab="camara"] .cat-head h2{color:var(--camara-dark);}
+  body[data-tab="total"] .cat-head h2{color:var(--total-dark);}
+  .cat-head .count{
+    font-size:12px;
+    color:var(--ink-soft);
+    font-variant-numeric:tabular-nums;
+  }
+  .cat-head .chev{
+    color:var(--ink-soft);
+    font-size:12px;
+    transition:transform .15s ease;
+  }
+  .cat.open .chev{transform:rotate(90deg);}
+  .cat-body{
+    display:none;
+    border-top:1px solid var(--line);
+  }
+  .cat.open .cat-body{display:block;}
+
+  .item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding:10px 14px;
+    border-top:1px solid var(--line);
+  }
+  .item:first-child{border-top:none;}
+  .item.active{background:var(--sala-soft);}
+  body[data-tab="camara"] .item.active{background:var(--camara-soft);}
+  body[data-tab="total"] .item.active{background:var(--total-soft);}
+  .total-value{
+    font-size:14.5px;
+    font-weight:700;
+    color:var(--total-dark);
+    min-width:70px;
+    text-align:right;
+  }
+  .item-name{
+    font-size:13.5px;
+    line-height:1.3;
+    flex:1;
+    min-width:0;
+  }
+  .item-name .code{
+    display:block;
+    font-size:11px;
+    color:var(--ink-soft);
+    margin-top:1px;
+  }
+  .stepper{
+    display:flex;
+    align-items:center;
+    gap:0;
+    flex-shrink:0;
+  }
+  .stepper button{
+    width:30px;
+    height:32px;
+    border:1px solid var(--line);
+    background:#fff;
+    color:var(--sala-dark);
+    font-size:17px;
+    line-height:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+  }
+  body[data-tab="camara"] .stepper button{color:var(--camara-dark);}
+  .stepper button:first-child{border-radius:8px 0 0 8px;}
+  .stepper button:last-child{border-radius:0 8px 8px 0;}
+  .stepper input{
+    width:56px;
+    height:32px;
+    border:1px solid var(--line);
+    border-left:none;
+    border-right:none;
+    text-align:center;
+    font-size:14px;
+    font-weight:600;
+    color:var(--ink);
+    -moz-appearance:textfield;
+  }
+  .stepper input::-webkit-outer-spin-button,
+  .stepper input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+  .unit-tag{
+    font-size:10.5px;
+    color:var(--ink-soft);
+    width:22px;
+    text-align:left;
+    flex-shrink:0;
+  }
+
+  .empty-search{
+    padding:24px 14px;
+    text-align:center;
+    color:var(--ink-soft);
+    font-size:13.5px;
+  }
+
+  .bottombar{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:var(--paper);
+    border-top:1px solid var(--line);
+    padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+    display:flex;
+    gap:8px;
+    align-items:center;
+    z-index:20;
+  }
+  .bottombar .info{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+  .bottombar .info b{color:var(--ink);font-size:14px;}
+  .view-text-link{
+    background:none;
+    border:none;
+    color:var(--ink-soft);
+    font-size:11px;
+    text-decoration:underline;
+    padding:2px 0 0;
+    cursor:pointer;
+    text-align:left;
+  }
+  .btn{
+    border:none;
+    border-radius:10px;
+    padding:12px 16px;
+    font-size:14px;
+    font-weight:700;
+    cursor:pointer;
+  }
+  .btn-primary{background:var(--sala);color:#fff;}
+  body[data-tab="camara"] .btn-primary{background:var(--camara);}
+  body[data-tab="total"] .btn-primary{background:var(--total);}
+  .btn-ghost{background:transparent;color:var(--danger);font-weight:600;font-size:12.5px;padding:8px;}
+
+  .modal-overlay{
+    position:fixed;inset:0;
+    background:rgba(43,38,32,.5);
+    display:none;
+    align-items:flex-end;
+    z-index:30;
+  }
+  .modal-overlay.show{display:flex;}
+  .modal{
+    background:var(--paper);
+    width:100%;
+    max-height:82vh;
+    border-radius:16px 16px 0 0;
+    padding:18px 16px calc(16px + env(safe-area-inset-bottom));
+    display:flex;
+    flex-direction:column;
+  }
+  .modal h3{margin:0 0 4px;font-size:16px;color:var(--sala-dark);}
+  .modal .modal-sub{font-size:12px;color:var(--ink-soft);margin-bottom:12px;}
+  .modal textarea{
+    width:100%;
+    flex:1;
+    min-height:260px;
+    resize:none;
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:12px;
+    font-size:13px;
+    font-family:inherit;
+    color:var(--ink);
+    background:var(--bg);
+  }
+  .modal-actions{
+    display:flex;
+    gap:8px;
+    margin-top:12px;
+  }
+  .modal-actions .btn{flex:1;}
+  .btn-secondary{background:var(--citrus-soft);color:#8A5420;}
+  .modal-close{
+    align-self:flex-end;
+    background:none;border:none;
+    color:var(--ink-soft);
+    font-size:13px;
+    padding:4px 0 10px;
+    cursor:pointer;
+  }
+  .toast{
+    position:fixed;
+    bottom:100px;
+    left:50%;
+    transform:translateX(-50%);
+    background:var(--ink);
+    color:#fff;
+    padding:9px 16px;
+    border-radius:20px;
+    font-size:13px;
+    max-width:88vw;
+    text-align:center;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .2s ease;
+    z-index:40;
+  }
+  .toast.show{opacity:1;}
+
+  .install-banner{
+    position:fixed;
+    top:8px;
+    left:8px;
+    right:8px;
+    z-index:50;
+    background:var(--ink);
+    color:#fff;
+    border-radius:12px;
+    padding:12px 14px;
+    font-size:12.5px;
+    line-height:1.45;
+    display:none;
+    box-shadow:0 6px 18px rgba(0,0,0,.25);
+  }
+  .install-banner.show{display:block;}
+  .install-banner b{display:block;margin-bottom:3px;font-size:13px;}
+  .install-banner .close-install{
+    float:right;
+    background:none;
+    border:none;
+    color:#fff;
+    opacity:.7;
+    font-size:14px;
+    cursor:pointer;
+    margin-left:8px;
+  }
+  .install-banner .install-go{
+    margin-top:8px;
+    background:#fff;
+    color:var(--ink);
+    border:none;
+    border-radius:8px;
+    padding:7px 12px;
+    font-size:12px;
+    font-weight:700;
+    cursor:pointer;
+  }
+</style>
+</head>
+<body data-tab="sala">
+
+<div class="install-banner" id="installBanner">
+  <button class="close-install" id="closeInstallBanner">✕</button>
+  <b>Añade el icono a tu pantalla de inicio</b>
+  <span id="installText"></span>
+</div>
+
+<header id="mainHeader">
+  <h1>Inventario mensual</h1>
+  <div class="date-nav">
+    <button class="nav-arrow" id="prevMonthBtn" aria-label="mes anterior">‹</button>
+    <div class="date-nav-label">
+      <span class="sub" id="monthSub">cargando...</span>
+      <button class="today-pill" id="thisMonthBtn" style="display:none;">Este mes</button>
+    </div>
+    <button class="nav-arrow" id="nextMonthBtn" aria-label="mes siguiente">›</button>
+  </div>
+  <div class="tabs">
+    <button id="tabSalaBtn" class="tab-sala-btn active">Sala</button>
+    <button id="tabCamaraBtn" class="tab-camara-btn">Cámara</button>
+    <button id="tabTotalBtn" class="tab-total-btn">Total</button>
+  </div>
+  <div class="searchwrap">
+    <input type="text" id="search" placeholder="Buscar producto o código...">
+  </div>
+  <div class="import-row" id="importRow">
+    <button class="import-btn" id="importBtn">📥 Importar datos del folio (foto)</button>
+  </div>
+</header>
+
+<main id="catList"></main>
+
+<div class="bottombar">
+  <div class="info">
+    <b id="itemCount">0 referencias</b>
+    <span id="itemCountLabel">contadas en Sala</span>
+    <button class="view-text-link" id="viewTextLink">Ver resumen</button>
+  </div>
+  <button class="btn btn-ghost" id="clearBtn">Vaciar</button>
+  <button class="btn btn-primary" id="generateBtn">Enviar a WhatsApp</button>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" id="modalClose">Cerrar ✕</button>
+    <h3 id="modalTitle">Resumen del inventario</h3>
+    <div class="modal-sub">Puedes copiarlo o abrir WhatsApp desde aquí</div>
+    <textarea id="invText" readonly></textarea>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="copyBtn">Copiar texto</button>
+      <button class="btn btn-primary" id="whatsappBtn">Abrir WhatsApp</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="importOverlay">
+  <div class="modal">
+    <button class="modal-close" id="importModalClose">Cerrar ✕</button>
+    <h3>Importar datos del folio</h3>
+    <div class="modal-sub">Pega aquí el texto que Claude te dio al leer la foto del folio (formato "código: cantidad", una línea por referencia). Se aplicará a la pestaña <b id="importTabName">Sala</b> del mes actual.</div>
+    <textarea id="importTextarea" placeholder="63807: 6&#10;10407: 3.5&#10;..."></textarea>
+    <div id="importPreview" style="display:none;font-size:12.5px;color:var(--ink-soft);margin-top:8px;max-height:120px;overflow:auto;"></div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="importPreviewBtn">Previsualizar</button>
+      <button class="btn btn-primary" id="importApplyBtn" disabled>Aplicar</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script>
+const CATALOG = [
+{cat:"Ensaladas y bowls", items:[
+  ["63754","Bowl ens. pasta y rúcula","UD",6],
+  ["63922","Ensalada pasta IFA Eliges bowl 265g","UD",6],
+  ["63807","Bowl japón ensalada","UD",6],
+  ["62461","Ensalada mezclum","UD",8],
+  ["56787","Verduras micro Br,Za,Col","UD",8],
+  ["61950","Ensalada fresca variada","UD",8],
+  ["63757","Ens. duo canónigos rúcula","UD",6],
+  ["17259","Bowl wraps pollo y queso","UD",10],
+  ["61943","Ensalada fresca IV estaciones","UD",4],
+  ["61925","Ensalada del huerto 400g","UD",8],
+  ["61944","Ensalada gourmet IFA","UD",10],
+  ["61936","Iceberg fresca cortada IFA","UD",8],
+  ["40350","Rúcula babyleaf","UD",4],
+  ["61945","Acelgas cortada","UD",6],
+  ["61959","Canónigo bolsa","UD",1],
+  ["61926","Brócoli micro Mimaflor","UD",4],
+  ["61937","Espinaca fresca bolsa IFA","UD",8],
+  ["61930","Ensalada espinacas brotes","UD",8],
+  ["61931","Ensalada brotes tiernos","UD",6],
+  ["62363","Bowl César IFA 215g","UD",6],
+  ["63755","Bowl César American Style","UD",6],
+  ["63756","Bowl gourmet 180g","UD",6],
+  ["63758","Bowl Xtreme pollo 210g","UD",6],
+  ["53171","Patata microondas","UD",8],
+  ["61181","Batata microondas","UD",8],
+  ["10461","Zanahoria rama und","UD",8],
+  ["10457","Zanahoria fresca bolsa 500g","UD",20],
+  ["10459","Zanahoria bolsa 1kg","UD",8]
+]},
+{cat:"Frutas", items:[
+  ["51123","Limón malla","UD",15],
+  ["10407","Limón granel","Kg",6],
+  ["10607","Pomelos","Kg",4],
+  ["10532","Frambuesa tarrina 125g","UD",4],
+  ["10551","Mora natural tarrina","UD",8],
+  ["63775","Arándanos cubo 500g","UD",6],
+  ["50340","Arándanos tarrina vaso","UD",9],
+  ["10523","Mandarina granel","Kg",10],
+  ["51125","Mango pieza Palmer","Kg",3],
+  ["63774","Mango bandeja 600g","UD",5],
+  ["31329","Manzana golden bolsa","UD",8],
+  ["58102","Manzana golden 1ª granel","Kg",5],
+  ["63869","Manzana roja bolsa 1,5kg","UD",8],
+  ["53552","Manzana giga","Caja",5],
+  ["31330","Manzana gran smith","Kg",5],
+  ["35412","Manzana pink lady granel","Kg",7],
+  ["63779","Manzana royal gala extra","Kg",5],
+  ["10555","Naranja mesa granel","Kg",12],
+  ["31118","Naranja malla 2kg","UD",10],
+  ["51394","Naranja zumo granel","Kg",15],
+  ["10587","Pera conferencia granel","Kg",6],
+  ["10573","Peras ercolina granel","Kg",4.5],
+  ["57876","Piña natural granel","Kg",12],
+  ["56181","Piña cortada cilindro","UD",5],
+  ["57373","Pitahaya pieza","Kg",3.5],
+  ["10669","Granada","Kg",5],
+  ["63777","Uva red globe","Caja",1],
+  ["63778","Uva blanca","Caja",1],
+  ["31374","Uva blanca bandeja 500g","UD",10],
+  ["31376","Uva roja bandeja 500g","UD",10],
+  ["63809","Uva blanca candy bandeja","UD",10],
+  ["10333","Aguacate granel","Kg",4.5],
+  ["51124","Aguacate bandeja 500g","UD",6],
+  ["63782","Box melón","Box",1],
+  ["10537","Melón granel caja","Kg",2],
+  ["10668","Melón galia España","Kg",1],
+  ["63783","Box sandía","Box",1],
+  ["10601","Banana extra","Kg",18.14],
+  ["10603","Plátano canario","Kg",17],
+  ["63762","Plátano macho granel","Kg",4.5],
+  ["50651","Sandía rayada granel","Kg",1],
+  ["15361","Sandía negra granel","Kg",1],
+  ["53380","Albaricoque bandeja","Kg",1],
+  ["10641","Melocotón rojo","Kg",4.5],
+  ["31382","Melocotón bandeja","UD",10],
+  ["10639","Melocotón amarillo","Kg",4.5],
+  ["10493","Ciruela roja","Kg",5],
+  ["53258","Ciruela roja bandeja","UD",10],
+  ["10664","Ciruela amarilla","Kg",5],
+  ["53505","Nectarina roja","Kg",4.5],
+  ["31341","Nectarina roja bandeja","UD",10],
+  ["10563","Paraguayos","Kg",5],
+  ["63776","Paraguayos bandeja 500g","UD",10],
+  ["63843","Higos fresco granel","Kg",1],
+  ["51126","Kiwi sungold 480g","UD",10],
+  ["53060","Kiwi verde bandeja","UD",10],
+  ["34038","Papaya und 550/600","Kg",5],
+  ["63763","Yuca granel","Kg",4.5],
+  ["63759","Lima tarrina 300g","UD",8]
+]},
+{cat:"Verduras y hortalizas", items:[
+  ["58072","Ajos bolsa 250g","UD",25],
+  ["63773","Ajo bolsa 500g","UD",12],
+  ["53254","Berenjena granel","Kg",7],
+  ["10353","Calabacín 1ª España","Kg",7],
+  ["10355","Calabaza troceada und","UD",10],
+  ["49104","Cebolla fresca","UD",10],
+  ["10365","Cebolla dulce malla 1kg","UD",6],
+  ["10359","Cebolla tubo 1kg","UD",14],
+  ["49107","Cebolla roja buti 500g","UD",8],
+  ["49106","Cebolla blanca buti malla","UD",8],
+  ["10361","Cebolla francesa 500g","UD",12],
+  ["63772","Cebollas seca bolsa 2kg","UD",7],
+  ["64097","Cebolla dulce granel","Kg",10],
+  ["10373","Cogollos bandeja","UD",10],
+  ["19169","Corazones cogollo bandeja","UD",6],
+  ["53537","Jengibre bio bandeja","UD",12],
+  ["10375","Coliflor kilo 1ª","Kg",12],
+  ["49102","Patata fresca granel","Kg",10],
+  ["10417","Patata especial malla","UD",4],
+  ["61483","Patata roja malla 2kg","UD",8],
+  ["54782","Patata especial guarnición","UD",6],
+  ["53170","Patata especial freír","UD",9],
+  ["63692","Patata nueva bolsa 3kg","UD",6],
+  ["10433","Pepino granel","Kg",4.5],
+  ["63781","Pepino holandés","Kg",4.5],
+  ["10439","Pimiento italiano granel","Kg",8],
+  ["51926","Pimiento tricolor","UD",10],
+  ["31495","Pimiento tipo padrón","UD",6],
+  ["10437","Pimiento rojo","Kg",6],
+  ["10441","Puerros bandeja","UD",6],
+  ["64096","Puerro manojo","UD",10],
+  ["10385","Espárragos manojo","UD",8],
+  ["64098","Espárrago gordo","UD",8],
+  ["10487","Brócoli und","UD",10],
+  ["10367","Col (repollo)","Kg",15],
+  ["10649","Preparado verduras cocina","UD",8],
+  ["10411","Maíz cocido","UD",12],
+  ["10443","Remolacha cocida","UD",12],
+  ["10401","Judías verdes bolsa 500g","UD",8],
+  ["10379","Endivia bandeja 450g","UD",5],
+  ["10469","Rabanillas bolsa","UD",6],
+  ["10393","Lechuga iceberg","UD",10],
+  ["31292","Lechuga romana 2 piezas","UD",8],
+  ["10349","Batata/boniato 1ª","Kg",5],
+  ["10455","Tomate de pera granel","Kg",5],
+  ["37647","Tomate rama granel","Kg",5],
+  ["19514","Tomate cherry redondo","UD",12],
+  ["63771","Tomate canario granel","Kg",5],
+  ["10453","Tomate rojo extra Danie K","Kg",6],
+  ["10451","Tomate ensalada","Kg",6],
+  ["17525","Tomate castellano (Rosalinda)","Kg",6],
+  ["63768","Tomate cherry pera bandeja","UD",9],
+  ["63769","Tomate cherry tricolor","UD",6],
+  ["63770","Tomate cherry kumato pera","UD",9]
+]},
+{cat:"Hierbas frescas", items:[
+  ["58117","Perejil plano 50g","UD",5],
+  ["10343","Apio verde bolsa 400g","UD",6],
+  ["58116","Hierbabuena 50g","UD",5],
+  ["52295","Cilantro fresco bandeja","UD",6],
+  ["52294","Albahaca fresca bandeja","UD",6],
+  ["53017","Romero fresco bandeja","UD",6]
+]},
+{cat:"Setas y champiñones", items:[
+  ["22579","Champiñón entero bandeja","UD",8],
+  ["22578","Champiñón laminado bandeja","UD",8],
+  ["53635","Champiñón portobello","UD",8],
+  ["63767","Champiñón gordo 400g","UD",6],
+  ["63761","Surtido champiñón 300g","UD",8],
+  ["63760","Mix de setas 250g","UD",8],
+  ["63920","Seta shiitake bandeja 200g","UD",8],
+  ["63921","Setas laminadas bandeja 200g","UD",8],
+  ["21703","Setas bandeja","UD",8]
+]},
+{cat:"Guacamole y salsas", items:[
+  ["63764","Salsa guacamole 200g","UD",12],
+  ["61932","Guacamole tarrina 500","UD",6],
+  ["63765","Salsa aguacate pulpa","UD",6],
+  ["63766","Guacamole c/queso cabra","UD",6]
+]}
+];
+</script>
+<script>
+// Kg, Caja y Box se cuentan a granel -> permiten decimales
+const GRANEL_UNITS = ["Kg","Caja","Box"];
+
+const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+
+function monthKeyOf(d){
+  return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0");
+}
+function monthLabelOf(key){
+  const [y,m] = key.split("-").map(Number);
+  return MESES[m-1] + " " + y;
+}
+function currentMonthKey(){
+  return monthKeyOf(new Date());
+}
+function shiftMonthKey(key, delta){
+  const [y,m] = key.split("-").map(Number);
+  const d = new Date(y, m-1+delta, 1);
+  return monthKeyOf(d);
+}
+
+// ---- Storage (localStorage nativo del navegador) ----
+const STORE_KEY = "inventario_mensual_data_v1";
+
+function loadAllData(){
+  try{
+    const raw = window.localStorage.getItem(STORE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  }catch(e){
+    return {};
+  }
+}
+function saveAllData(data){
+  try{
+    window.localStorage.setItem(STORE_KEY, JSON.stringify(data));
+  }catch(e){
+    console.error("No se pudo guardar", e);
+  }
+}
+
+let allData = loadAllData();
+let state = {
+  month: currentMonthKey(),
+  tab: "sala",
+  search: ""
+};
+
+function getMonthData(key){
+  if(!allData[key]){
+    allData[key] = {sala:{}, camara:{}};
+  }
+  if(!allData[key].sala) allData[key].sala = {};
+  if(!allData[key].camara) allData[key].camara = {};
+  return allData[key];
+}
+
+function getQty(code){
+  const md = getMonthData(state.month);
+  if(state.tab === "total"){
+    return (md.sala[code] || 0) + (md.camara[code] || 0);
+  }
+  const bucket = md[state.tab];
+  return bucket[code] || 0;
+}
+function setQty(code, value){
+  const md = getMonthData(state.month);
+  const bucket = md[state.tab];
+  if(value > 0){
+    bucket[code] = value;
+  } else {
+    delete bucket[code];
+  }
+  saveAllData(allData);
+}
+
+// ---- Referencias DOM ----
+const header = document.getElementById("mainHeader");
+const monthSub = document.getElementById("monthSub");
+const thisMonthBtn = document.getElementById("thisMonthBtn");
+const prevMonthBtn = document.getElementById("prevMonthBtn");
+const nextMonthBtn = document.getElementById("nextMonthBtn");
+const tabSalaBtn = document.getElementById("tabSalaBtn");
+const tabCamaraBtn = document.getElementById("tabCamaraBtn");
+const tabTotalBtn = document.getElementById("tabTotalBtn");
+const searchInput = document.getElementById("search");
+const catList = document.getElementById("catList");
+const itemCount = document.getElementById("itemCount");
+const itemCountLabel = document.getElementById("itemCountLabel");
+const viewTextLink = document.getElementById("viewTextLink");
+const clearBtn = document.getElementById("clearBtn");
+const generateBtn = document.getElementById("generateBtn");
+const importRow = document.getElementById("importRow");
+const importBtn = document.getElementById("importBtn");
+const importOverlay = document.getElementById("importOverlay");
+const importModalClose = document.getElementById("importModalClose");
+const importTabName = document.getElementById("importTabName");
+const importTextarea = document.getElementById("importTextarea");
+const importPreview = document.getElementById("importPreview");
+const importPreviewBtn = document.getElementById("importPreviewBtn");
+const importApplyBtn = document.getElementById("importApplyBtn");
+const modalOverlay = document.getElementById("modalOverlay");
+const modalClose = document.getElementById("modalClose");
+const invText = document.getElementById("invText");
+const copyBtn = document.getElementById("copyBtn");
+const whatsappBtn = document.getElementById("whatsappBtn");
+const toastEl = document.getElementById("toast");
+
+let openCats = new Set();
+
+function showToast(msg){
+  toastEl.textContent = msg;
+  toastEl.classList.add("show");
+  setTimeout(()=>toastEl.classList.remove("show"), 1800);
+}
+
+// ---- Índice del catálogo por código (para importar datos) ----
+const CATALOG_INDEX = {};
+CATALOG.forEach(group => {
+  group.items.forEach(([code, name, unit, box]) => {
+    CATALOG_INDEX[code] = {name, unit, box};
+  });
+});
+
+function tabLabel(){
+  if(state.tab === "sala") return "Sala";
+  if(state.tab === "camara") return "Cámara";
+  return "Total (Sala + Cámara)";
+}
+
+function refreshHeader(){
+  header.classList.toggle("tab-camara", state.tab === "camara");
+  header.classList.toggle("tab-total", state.tab === "total");
+  document.body.setAttribute("data-tab", state.tab);
+  monthSub.textContent = monthLabelOf(state.month);
+  thisMonthBtn.style.display = (state.month === currentMonthKey()) ? "none" : "inline-block";
+  tabSalaBtn.classList.toggle("active", state.tab === "sala");
+  tabCamaraBtn.classList.toggle("active", state.tab === "camara");
+  tabTotalBtn.classList.toggle("active", state.tab === "total");
+  itemCountLabel.textContent = "contadas en " + tabLabel() + " · " + monthLabelOf(state.month);
+  clearBtn.style.display = (state.tab === "total") ? "none" : "inline-block";
+  importRow.style.display = (state.tab === "total") ? "none" : "block";
+}
+
+function stepFor(unit){
+  return GRANEL_UNITS.includes(unit) ? 0.5 : 1;
+}
+function boxDetail(unit, box){
+  const word = unit === "UD" ? "ud" : (unit === "Kg" ? "kg" : unit.toLowerCase());
+  return `Caja de ${formatQty(box)} ${word}`;
+}
+function formatQty(n){
+  if(Number.isInteger(n)) return String(n);
+  return String(Math.round(n*100)/100);
+}
+
+function render(){
+  refreshHeader();
+  catList.innerHTML = "";
+  const term = state.search.trim().toLowerCase();
+  let totalCounted = 0;
+  let anyMatch = false;
+
+  CATALOG.forEach((group, gi) => {
+    const filteredItems = group.items.filter(([code,name]) => {
+      if(!term) return true;
+      return name.toLowerCase().includes(term) || code.includes(term);
+    });
+    if(filteredItems.length === 0) return;
+    anyMatch = true;
+
+    const catId = "cat-" + gi;
+    const isOpen = term ? true : openCats.has(catId);
+
+    const catDiv = document.createElement("div");
+    catDiv.className = "cat" + (isOpen ? " open" : "");
+    catDiv.id = catId;
+
+    const countInCat = filteredItems.filter(([code]) => getQty(code) > 0).length;
+
+    const head = document.createElement("div");
+    head.className = "cat-head";
+    head.innerHTML = `<h2>${group.cat}</h2><div style="display:flex;align-items:center;gap:8px;"><span class="count">${countInCat ? countInCat + " con dato" : filteredItems.length + " ref."}</span><span class="chev">▶</span></div>`;
+    head.addEventListener("click", () => {
+      if(openCats.has(catId)) openCats.delete(catId);
+      else openCats.add(catId);
+      catDiv.classList.toggle("open");
+    });
+    catDiv.appendChild(head);
+
+    const body = document.createElement("div");
+    body.className = "cat-body";
+
+    filteredItems.forEach(([code, name, unit, box]) => {
+      const qty = getQty(code);
+      if(qty > 0) totalCounted++;
+
+      const row = document.createElement("div");
+      row.className = "item" + (qty > 0 ? " active" : "");
+
+      if(state.tab === "total"){
+        row.innerHTML = `
+          <div class="item-name">${name}<span class="code">#${code} · ${boxDetail(unit, box)}</span></div>
+          <div class="total-value">${qty > 0 ? formatQty(qty) + " " + unit : "—"}</div>
+        `;
+        body.appendChild(row);
+        return;
+      }
+
+      row.innerHTML = `
+        <div class="item-name">${name}<span class="code">#${code} · ${boxDetail(unit, box)}</span></div>
+        <div class="stepper">
+          <button class="minus" aria-label="menos">−</button>
+          <input type="number" inputmode="decimal" step="${stepFor(unit)}" min="0" value="${qty > 0 ? formatQty(qty) : ""}" placeholder="0">
+          <button class="plus" aria-label="más">+</button>
+        </div>
+      `;
+      const input = row.querySelector("input");
+      const minusBtn = row.querySelector(".minus");
+      const plusBtn = row.querySelector(".plus");
+      const step = stepFor(unit);
+
+      function commit(newVal){
+        let v = parseFloat(newVal);
+        if(isNaN(v) || v < 0) v = 0;
+        v = Math.round(v*100)/100;
+        setQty(code, v);
+        row.classList.toggle("active", v > 0);
+        input.value = v > 0 ? formatQty(v) : "";
+        updateCountBar();
+      }
+
+      input.addEventListener("change", () => commit(input.value));
+      minusBtn.addEventListener("click", () => {
+        const v = Math.max(0, (getQty(code) || 0) - step);
+        commit(v);
+      });
+      plusBtn.addEventListener("click", () => {
+        const v = (getQty(code) || 0) + step;
+        commit(v);
+      });
+
+      body.appendChild(row);
+    });
+
+    catDiv.appendChild(body);
+    catList.appendChild(catDiv);
+  });
+
+  if(!anyMatch){
+    catList.innerHTML = `<div class="empty-search">Ningún producto coincide con "${state.search}"</div>`;
+  }
+
+  updateCountBar();
+}
+
+function updateCountBar(){
+  const md = getMonthData(state.month);
+  let n;
+  if(state.tab === "total"){
+    const codes = new Set([...Object.keys(md.sala), ...Object.keys(md.camara)]);
+    n = codes.size;
+  } else {
+    n = Object.keys(md[state.tab]).length;
+  }
+  itemCount.textContent = n + (n === 1 ? " referencia" : " referencias");
+}
+
+// ---- Eventos de cabecera ----
+prevMonthBtn.addEventListener("click", () => {
+  state.month = shiftMonthKey(state.month, -1);
+  render();
+});
+nextMonthBtn.addEventListener("click", () => {
+  state.month = shiftMonthKey(state.month, 1);
+  render();
+});
+thisMonthBtn.addEventListener("click", () => {
+  state.month = currentMonthKey();
+  render();
+});
+tabSalaBtn.addEventListener("click", () => { state.tab = "sala"; render(); });
+tabCamaraBtn.addEventListener("click", () => { state.tab = "camara"; render(); });
+tabTotalBtn.addEventListener("click", () => { state.tab = "total"; render(); });
+searchInput.addEventListener("input", () => {
+  state.search = searchInput.value;
+  render();
+});
+
+clearBtn.addEventListener("click", () => {
+  const md = getMonthData(state.month);
+  const n = Object.keys(md[state.tab]).length;
+  if(n === 0){
+    showToast("No hay datos para vaciar");
+    return;
+  }
+  if(confirm(`¿Vaciar todos los datos de ${state.tab === "sala" ? "Sala" : "Cámara"} de ${monthLabelOf(state.month)}?`)){
+    md[state.tab] = {};
+    saveAllData(allData);
+    render();
+    showToast("Datos vaciados");
+  }
+});
+
+// ---- Generar texto del inventario (Sala + Cámara del mes) ----
+function buildInventoryText(){
+  const md = getMonthData(state.month);
+  let lines = [];
+  lines.push(`📋 Inventario mensual - ${monthLabelOf(state.month)}`);
+
+  function section(label, bucket){
+    const rows = [];
+    CATALOG.forEach(group => {
+      const groupRows = [];
+      group.items.forEach(([code, name, unit]) => {
+        const qty = bucket[code];
+        if(qty > 0){
+          groupRows.push(`- ${name}: ${formatQty(qty)} ${unit}`);
+        }
+      });
+      if(groupRows.length){
+        rows.push(`\n${group.cat}`);
+        rows.push(...groupRows);
+      }
+    });
+    if(rows.length === 0){
+      return `\n${label}\n(sin datos)`;
+    }
+    return `\n${label}${rows.join("\n")}`;
+  }
+
+  lines.push(section("🟢 SALA", md.sala));
+  lines.push(section("🔵 CÁMARA", md.camara));
+
+  return lines.join("\n");
+}
+
+viewTextLink.addEventListener("click", openTextModal);
+generateBtn.addEventListener("click", openTextModal);
+
+function openTextModal(){
+  invText.value = buildInventoryText();
+  modalOverlay.classList.add("show");
+}
+modalClose.addEventListener("click", () => modalOverlay.classList.remove("show"));
+modalOverlay.addEventListener("click", (e) => {
+  if(e.target === modalOverlay) modalOverlay.classList.remove("show");
+});
+copyBtn.addEventListener("click", async () => {
+  try{
+    await navigator.clipboard.writeText(invText.value);
+    showToast("Texto copiado");
+  }catch(e){
+    invText.select();
+    document.execCommand("copy");
+    showToast("Texto copiado");
+  }
+});
+whatsappBtn.addEventListener("click", () => {
+  const text = encodeURIComponent(invText.value);
+  window.open(`https://wa.me/?text=${text}`, "_blank");
+});
+
+// ---- Importar datos (código: cantidad) leídos de una foto del folio ----
+let parsedImport = [];
+
+function parseImportText(text){
+  const results = [];
+  const seen = new Set();
+  text.split(/\r?\n/).forEach(line => {
+    const m = line.match(/(\d{3,6})\D+([\d.,]+)/);
+    if(!m) return;
+    const code = m[1];
+    if(!CATALOG_INDEX[code] || seen.has(code)) return;
+    let qty = parseFloat(m[2].replace(",", "."));
+    if(isNaN(qty) || qty < 0) return;
+    qty = Math.round(qty*100)/100;
+    seen.add(code);
+    results.push({code, qty});
+  });
+  return results;
+}
+
+importBtn.addEventListener("click", () => {
+  importTabName.textContent = tabLabel();
+  importTextarea.value = "";
+  importPreview.style.display = "none";
+  importPreview.innerHTML = "";
+  importApplyBtn.disabled = true;
+  parsedImport = [];
+  importOverlay.classList.add("show");
+});
+importModalClose.addEventListener("click", () => importOverlay.classList.remove("show"));
+importOverlay.addEventListener("click", (e) => {
+  if(e.target === importOverlay) importOverlay.classList.remove("show");
+});
+
+importPreviewBtn.addEventListener("click", () => {
+  parsedImport = parseImportText(importTextarea.value);
+  importPreview.style.display = "block";
+  if(parsedImport.length === 0){
+    importPreview.innerHTML = "No se reconoció ninguna referencia válida. Revisa el formato (código: cantidad).";
+    importApplyBtn.disabled = true;
+    return;
+  }
+  importPreview.innerHTML = parsedImport.map(({code, qty}) => {
+    const ref = CATALOG_INDEX[code];
+    return `${ref.name} (#${code}): <b>${formatQty(qty)} ${ref.unit}</b>`;
+  }).join("<br>");
+  importApplyBtn.disabled = false;
+});
+
+importApplyBtn.addEventListener("click", () => {
+  if(parsedImport.length === 0) return;
+  const md = getMonthData(state.month);
+  const bucket = md[state.tab === "total" ? "sala" : state.tab];
+  parsedImport.forEach(({code, qty}) => {
+    if(qty > 0) bucket[code] = qty;
+    else delete bucket[code];
+  });
+  saveAllData(allData);
+  importOverlay.classList.remove("show");
+  render();
+  showToast(`Importado: ${parsedImport.length} referencias en ${tabLabel()}`);
+});
+
+// ---- Banner de instalación (igual que en Pedido y ventas) ----
+function initInstallBanner(){
+  const banner = document.getElementById("installBanner");
+  const textEl = document.getElementById("installText");
+  const closeBtn = document.getElementById("closeInstallBanner");
+
+  const isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone;
+  if(isStandalone) return;
+
+  const dismissed = window.localStorage.getItem("inv_install_dismissed");
+  if(dismissed) return;
+
+  const ua = navigator.userAgent;
+  const isIOS = /iPad|iPhone|iPod/.test(ua);
+  const isAndroid = /Android/.test(ua);
+
+  if(isIOS){
+    textEl.textContent = 'Toca el botón compartir (⬆️) y luego "Añadir a pantalla de inicio".';
+  } else if(isAndroid){
+    textEl.textContent = 'Abre el menú (⋮) del navegador y toca "Añadir a pantalla de inicio" o "Instalar app".';
+  } else {
+    textEl.textContent = 'Desde el menú del navegador, busca la opción "Instalar" o "Añadir a pantalla de inicio".';
+  }
+
+  banner.classList.add("show");
+  closeBtn.addEventListener("click", () => {
+    banner.classList.remove("show");
+    window.localStorage.setItem("inv_install_dismissed", "1");
+  });
+
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    const goBtn = document.createElement("button");
+    goBtn.className = "install-go";
+    goBtn.textContent = "Instalar ahora";
+    goBtn.addEventListener("click", async () => {
+      banner.classList.remove("show");
+      e.prompt();
+    });
+    banner.appendChild(goBtn);
+  });
+}
+
+initInstallBanner();
+render();
+</script>
+</body>
+</html>
